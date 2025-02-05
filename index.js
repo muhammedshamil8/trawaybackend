@@ -25,7 +25,7 @@ app.post('/api/send-report', async (req, res) => {
 
     const mailOptions = {
         from: process.env.EMAIL_USER, // From email
-        to: recipientEmail || "authorities@example.com",
+        to: "nivedithat2006@gmail.com",// recipientEmail 
         subject: `Emergency Report: ${type}`,
         text: `Location: ${location}\n\nDescription: ${description}`,
     };
